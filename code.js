@@ -10,3 +10,11 @@ function sayHello(input) {
         return "Hello, " + input + "!";
     }
 }
+
+function isFive(num) {
+    if (num === 5 || num === "5") {
+        return true;
+    } else {
+        return false;
+    }
+}
